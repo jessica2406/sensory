@@ -1,0 +1,24 @@
+# Python backend specific
+storyteller-backend/.venv
+storyteller-backend/__pycache__/
+storyteller-backend/instance/
+storyteller-backend/.pytest_cache/
+storyteller-backend/.env
+*.pyc
+
+# React frontend specific
+sensory-web-storyteller/node_modules
+sensory-web-storyteller/.pnp
+sensory-web-storyteller/.pnp.js
+sensory-web-storyteller/build
+sensory-web-storyteller/.env.local
+sensory-web-storyteller/.env.development.local
+sensory-web-storyteller/.env.test.local
+sensory-web-storyteller/.env.production.local
+sensory-web-storyteller/npm-debug.log*
+sensory-web-storyteller/yarn-debug.log*
+sensory-web-storyteller/yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
